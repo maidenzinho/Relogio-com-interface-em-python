@@ -1,5 +1,5 @@
 import tkinter as tk
-from datetime import strftime
+from time import strftime
 
 def update_time():
     current_time = strftime('%H:%M:%S %p')
